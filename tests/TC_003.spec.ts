@@ -6,4 +6,5 @@ test("TC001 - Login into Application", async({page}) => {
     await obj.openApplication();
     await obj.login();
     await obj.logout();
+    await obj.wait();
 });
